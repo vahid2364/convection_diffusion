@@ -16,7 +16,11 @@ ifort -qmkl diff_conv_imp.o stdlib_linalg_diag.o stdlib_math.o stdlib_math_linsp
 
 Then, execute: ./a.out
 
-Pre-compiled on Mac OS using Intel Fortran 2021b
+Pre-compiled on Mac OS using Intel oneAPI Fortran 2021b
+
+Fortran standard Library: https://stdlib.fortran-lang.org
+Fortran MKL Library: https://www.intel.com/content/www/us/en/develop/documentation/onemkl-developer-reference-fortran/top.html 
+
 
 ![data](https://user-images.githubusercontent.com/11892854/165896367-37355c9f-a0fe-4d13-8ec0-dbe0b0c215ce.png)
 
