@@ -10,21 +10,25 @@ More information about convection-diffusion equation: https://en.wikipedia.org/w
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Pre-compiled example works on Mac OS using Intel oneAPI Fortran 2021b
+* Fortran standard Library is needed: https://stdlib.fortran-lang.org
+* Fortran MKL Library is needed: https://www.intel.com/content/www/us/en/develop/documentation/onemkl-developer-reference-fortran/top.html 
+* ex. is bre-built in Mac OS 11.
+* MKL lib is dynamically linked.
+* STD LIB is linked statically. 
 
 ### Executing program
 
-* How to run the program
+* How to compile the program
 * Step-by-step bullets
 ```
-code blocks for commands
+./run.sh
 ```
+or
+```
+./run.sh
+```
+
 
 ## Help
 
@@ -62,12 +66,6 @@ Inspiration, code snippets, etc.
 * [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
 
 -------
-
-# convection_diffusion equation solver
-Convection–diffusion equation solver 1D - compares explicit, implicit, and analytical solutions
-
-More about convection-diffusion equation:
-https://en.wikipedia.org/wiki/Convection–diffusion_equation 
 
 Compilation: 
 
