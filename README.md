@@ -1,7 +1,15 @@
 # convection_diffusion equation solver
 Convection–diffusion equation solver 1D - compares explicit, implicit, and analytical solutions
 
+More about convection-diffusion equation:
+https://en.wikipedia.org/wiki/Convection–diffusion_equation 
+
+
 Compilation: 
+
+h1 {
+  text-shadow: 2px 2px 5px red;
+}
 
 ./run.sh
 
