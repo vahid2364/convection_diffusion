@@ -4,8 +4,6 @@ Convection–diffusion equation solver 1D - compares explicit, implicit, and ana
 More about convection-diffusion equation:
 https://en.wikipedia.org/wiki/Convection–diffusion_equation 
 
-$\frac{c}{t}$
-
 Compilation: 
 
 ./run.sh
